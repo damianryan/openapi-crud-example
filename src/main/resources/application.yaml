@@ -1,0 +1,6 @@
+cookery:
+  api:
+    root-path: api/v1
+    recipes-path: ${cookery.api.root-path}/recipes
+    dishes-path: ${cookery.api.root-path}/dishes
+    ingredients-path: ${cookery.api.root-path}/ingredients
